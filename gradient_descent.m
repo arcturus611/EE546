@@ -1,4 +1,11 @@
 % GRADIENT DESCENT ALGORITHM 
+% This example illustrates the dependence of gradient descent on the
+% starting point. When we start at a point on the longer end, it takes
+% about 100 iterations. When we start at a point on the shorter end, it
+% takes about 10 iterations. An order of magnitude difference!
+% This example is from slide 1-4 of vandenberghe's lecture 236c,
+% gradient.pdf.
+
 clc; clearvars; close all; 
 
 % generate the problem data
